@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">UnitConverter</string>
+    <string name="result">Result = </string>
+
+    <string-array name="unitTypes">
+        <item>Length</item>
+        <item>Speed</item>
+        <item>Time</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>Foot to Meter</item>
+        <item>Meter to Foot</item>
+        <item>Inch to Centimeter</item>
+        <item>Centimeter to Inch</item>
+        <item>KM to Mile</item>
+        <item>Mile to KM</item>
+        <item>Meter to Centimeter</item>
+        <item>Centimeter to Meter</item>
+    </string-array>
+    <string-array name="lengthFactor">
+        <item>0.30</item>
+        <item>3.28</item>
+        <item>2.54</item>
+        <item>0.39</item>
+        <item>0.62</item>
+        <item>1.60</item>
+        <item>100</item>
+        <item>0.01</item>
+    </string-array>
+
+    <string-array name="speed">
+        <item>mps to kmps</item>
+        <item>kmps to mps</item>
+    </string-array>
+    <string-array name="speedFactor">
+        <item>3.6</item>
+        <item>0.28</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Hours to Minutes</item>
+        <item>Minutes to Hours</item>
+    </string-array>
+    <string-array name="timeFactor">
+        <item>60</item>
+        <item>0.0166667</item>
+    </string-array>
+</resources>
