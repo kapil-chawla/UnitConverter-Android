@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 if(s!=null && !s.toString().equals("")){
                     double d = Double.parseDouble(s.toString());
                     double result = d * multiplyFactor;
-                    resultView.setText(getResourceStringByID("result")  + result);
+                    resultView.setText(getResourceStringByID("result")  + String.format("%.2f", result));
                 }else{
                     resultView.setText("");
                 }
